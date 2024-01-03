@@ -20,13 +20,13 @@ router.get('/notes', getNotes);
 router.get('/notes/:id', getNotesById)
 
 //post routes
-router.post('/notes', auth, isAdmin, createNotes);
+router.post('/notes', auth, createNotes);
 
 //update request routes
-router.put('/notes/:id', auth, isAdmin, UpdateNotes)
+router.put('/notes/:id', auth, UpdateNotes)
 
 //delete Notes
-router.delete('/notes/:id', auth, isAdmin, deleteNotes)
+router.delete('/notes/:id', auth, deleteNotes)
 
 
 module.exports = router;
