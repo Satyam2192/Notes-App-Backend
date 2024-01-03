@@ -1,4 +1,5 @@
 ### Deplayed At : https://note-taking-api-xo12.onrender.com/api/v1/notes  
+### Postaman : https://documenter.getpostman.com/view/31555061/2s9YsFEZyR#auth-info-23072076-d16b-4618-a46f-6381ffc5ee6f
  _______________________________________________________________________________________________
 | Endpoint     |    HTTP    |  Method Description                                               |
 |--------------|------------|-------------------------------------------------------------------|
